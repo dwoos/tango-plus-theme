@@ -397,6 +397,19 @@ Semantic, and Ansi-Color faces are included.")
    
    ;; anzu-mode:
    `(anzu-mode-line                 ((,class (:inherit mode-line))))
+
+   ;; eshell-mode
+   `(eshell-prompt ((,class (:inherit font-lock-keyword-face))))
+   `(eshell-ls-directory ((,class (:inherit font-lock-builtin-face))))
+   `(eshell-ls-backup ((,class (:inherit deemphasized))))
+   `(eshell-ls-clutter ((,class (:inherit deemphasized))))
+   `(eshell-ls-executable ((,class (:inherit font-lock-function-name-face))))
+   `(eshell-ls-missing ((,class (:inherit error))))
+   `(eshell-ls-product ((,class (:inherit default))))
+   `(eshell-ls-readonly ((,class (:inherit font-lock-constant-face))))
+   `(eshell-ls-special ((,class (:inherit font-lock-builtin-face))))
+   `(eshell-ls-symlink ((,class (:inherit default))))
+   `(eshell-ls-unreadable ((,class (:inherit error))))
    )
 
   (custom-theme-set-variables
