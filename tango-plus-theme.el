@@ -414,6 +414,14 @@ Semantic, and Ansi-Color faces are included.")
    `(eshell-ls-special ((,class (:inherit font-lock-builtin-face))))
    `(eshell-ls-symlink ((,class (:inherit default))))
    `(eshell-ls-unreadable ((,class (:inherit error))))
+
+   ;; vterm-mode
+   `(vterm-color-blue ((,class (:foreground ,blue-3))))
+   `(vterm-color-red ((,class (:foreground ,red-2))))
+   `(vterm-color-magenta ((,class (:foreground ,plum-1))))
+   `(vterm-color-yellow ((,class (:foreground ,butter-2))))
+   `(vterm-color-green ((,class (:foreground ,cham-1))))
+   `(vterm-color-cyan ((,class (:foreground ,blue-1))))
    )
 
   (custom-theme-set-variables
