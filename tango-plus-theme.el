@@ -422,6 +422,10 @@ Semantic, and Ansi-Color faces are included.")
    `(vterm-color-yellow ((,class (:foreground ,butter-2))))
    `(vterm-color-green ((,class (:foreground ,cham-1))))
    `(vterm-color-cyan ((,class (:foreground ,blue-1))))
+
+   ;; sh-mode
+   `(sh-quoted-exec ((,class (:inherit font-lock-function-name-face))))
+   
    )
 
   (custom-theme-set-variables
