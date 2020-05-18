@@ -99,14 +99,14 @@ Semantic, and Ansi-Color faces are included.")
    `(trailing-whitespace            ((,class (:background ,red-1))))
    `(escape-glyph                   ((,class (:foreground ,red-3))))
    ;; Skipping `nobreak-space'.
-   `(mode-line                      ((,class (:background ,alum-5
-					      :foreground ,alum-1))))
-   `(mode-line-inactive             ((,class (:background ,alum-4
-					      :foreground ,alum-3))))
+   ;; `(mode-line                      ((,class (:background ,alum-5
+   ;;      				      :foreground ,alum-1))))
+   ;; `(mode-line-inactive             ((,class (:background ,alum-4
+   ;;      				      :foreground ,alum-3))))
    ;; What `mode-line-highlight' and `mode-line-emphasis' used for?
-   `(mode-line-buffer-id            ((,class (:weight bold))))
-   `(header-line                    ((,class (:background ,alum-2))))
-   `(vertical-border                ((,class (:foreground ,alum-3))))
+   ;; `(mode-line-buffer-id            ((,class (:weight bold))))
+   ;; `(header-line                    ((,class (:background ,alum-2))))
+   ;; `(vertical-border                ((,class (:foreground ,alum-3))))
    ;; Skipping `window-divider', `window-divider-first-pixel' and
    ;; `window-divider-last-pixel'.
    `(minibuffer-prompt              ((,class (:weight bold
